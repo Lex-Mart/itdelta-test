@@ -1,0 +1,19 @@
+.imagesList {
+	margin-top: 110px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 32px;
+}
+
+@media (max-width: 1358px) {
+	.imagesList {
+		padding: 0 15px;
+	}
+}
+
+@media (max-width: 600px) {
+	.imagesList {
+		gap: 12px;
+	}
+}
